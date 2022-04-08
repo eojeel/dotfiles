@@ -103,22 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias pcs="~/pcsdevelopment/pcspecialist.co.uk/"
-alias pcd="~/pcsdevelopment"
-alias dc="docker"
-alias dt="/mnt/c/Users/joseph.lee/Desktop/"
-alias gp="git pull origin develop"
-alias gr="git pull origin develop --rebase"
-alias stage="git push origin develop && git push origin develop:master"
-alias deploy="git push production develop && git push production develop:master"
-alias db1="ssh root@193.39.252.98 -p 2020"
-alias db2="ssh root@193.39.252.99 -p 2020"
-alias bssh="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
-alias bscp="scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
-alias pcsh="cd /home/eojeel/pcsdevelopment/pcspecialist.co.uk"
-alias dt=" /mnt/c/Users/Joseph.lee/Desktop"
-alias k="kubectl"
-alias d="docker"
 
 GLOBALIAS_FILTER_VALUES=(ls la ll lt ltt lttt lttt $GLOBALIAS_FILTER_VALUES)
 

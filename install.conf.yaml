@@ -5,6 +5,8 @@
 - clean: ['~']
 
 - link:
+    ~/.aliases: shell/.aliases
+    ~/.gitconfig: .gitconfig
     ~/.zshrc: .zshrc
 
 - shell:
