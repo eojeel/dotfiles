@@ -43,6 +43,19 @@ vim.keymap.set('n', '<C-Down>', ':resize -2<CR>')
 vim.keymap.set('n', '<C-Left>', ':vertical resize -2<CR>')
 vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>')
 
+
+-- Normal mode mappings
+vim.keymap.set('n', '<Left>', [[<Cmd>echoerr "Use h"<CR>]], { noremap = true, silent = true })
+vim.keymap.set('n', '<Right>', [[<Cmd>echoerr "Use l"<CR>]], { noremap = true, silent = true })
+vim.keymap.set('n', '<Up>', [[<Cmd>echoerr "Use k"<CR>]], { noremap = true, silent = true })
+vim.keymap.set('n', '<Down>', [[<Cmd>echoerr "Use j"<CR>]], { noremap = true, silent = true })
+
+-- Insert mode mappings
+vim.keymap.set('i', '<Left>', [[<ESC><Cmd>echoerr "Use h"<CR>]], { noremap = true, silent = true })
+vim.keymap.set('i', '<Right>', [[<ESC><Cmd>echoerr "Use l"<CR>]], { noremap = true, silent = true })
+vim.keymap.set('i', '<Up>', [[<ESC><Cmd>echoerr "Use k"<CR>]], { noremap = true, silent = true })
+vim.keymap.set('i', '<Down>', [[<ESC><Cmd>echoerr "Use j"<CR>]], { noremap = true, silent = true })
+
 -- Move text up and down
 -- vim.keymap.set('i', '<A-j>', '<Esc>:move .+1<CR>==gi')
 -- vim.keymap.set('i', '<A-k>', '<Esc>:move .-2<CR>==gi')
