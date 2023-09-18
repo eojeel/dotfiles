@@ -31,6 +31,8 @@ plugins=(
     rsync
     git
     zsh-autosuggestions
+    # https://github.com/jasonmccreary/git-trim
+    git-trim 
 )
 
 source $ZSH/oh-my-zsh.sh
