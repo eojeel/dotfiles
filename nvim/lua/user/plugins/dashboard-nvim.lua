@@ -2,15 +2,7 @@ require('dashboard').setup({
   theme = 'doom',
   config = {
     header = {
-      '',
-      '',
-      '',
-      '      ⢸⣦⡈⠻⣿⣿⣿⣶⣄      ',
-      '      ⢸⣿⣿⣦⡈⠻⣿⣿⣿⣷⣄    ',
-      '⣀⣀⣀⣀⣀⣀⣼⣿⣿⣿⣿ ⠈⠻⣿⣿⣿⣷⣄  ',
-      '⠈⠻⣿⣿⣿⣿⣿⡿⠿⠛⠁   ⠈⠻⢿⣿⣿⣷⣄',
-      '',
-      '',
+        'EOJEEL'
     },
     center = {
       { icon = '  ', desc = 'New file', action = 'enew' },

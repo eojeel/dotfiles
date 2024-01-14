@@ -1,4 +1,3 @@
-(comment) @comment
 
 ; Pragma
 (pragma_directive) @tag
